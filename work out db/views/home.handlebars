@@ -1,0 +1,39 @@
+<form>
+  <fieldset>
+    <legend>Add Exercise</legend>
+      <label>Name</label>
+      <input type="text" name="name" id="name"></br>
+
+      <label>Reps</label>
+      <input type="number" name="name" id="reps"></br>
+
+      <label>Weight</label>
+      <input type="number" step="0.01" name="weight" id="weight"></br>
+
+      <label>Date</label>
+      <input type="text" name="date" id="date"></br>
+      <!--
+      <label>lbs(0 for FALSE; 1 for TRUE)</label>
+      <input type="text" name="lbs" id="lbs">   </br>
+      -->
+      <label>Unit</label>
+      <select id="unit">
+        <option value="1" selected="selected">lbs</option>
+        <option value="2">kg</option>
+      </select></br>
+
+      <input type="submit" id="infoSubmit">
+  </fieldset>
+<form>
+
+<h2>Workout List</h2>
+<table id="workoutTable">
+  <tr>
+    <th>Name
+    <th>Reps
+    <th>Weight
+    <th>Date
+    <th>Unit
+    <th>Action
+  </tr>
+</table>
