@@ -1,0 +1,18 @@
+<div id="jumbotron-this-console" class="jumbotron">
+
+	<div class="console-title">
+		<div class="console-name">PlayStation 4 Console</div>
+		<div class="console-price">Now ONLY $ 250.00</div>
+	</div>
+
+	<img src="/images/ps4proA.jpg" alt="PS4 Pro">
+
+	<div class="container-scrollbar">
+		<div class="scrollbar-title">You may also like</div>
+		<div class="scrollbar">
+			{{#each_consoleFilter game "console" "PlayStation 4"}}
+				<img src={{imgURL}} alt={{name}}>
+			{{/each_consoleFilter}}
+		</div>
+	</div>
+</div>

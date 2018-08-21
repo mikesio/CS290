@@ -1,0 +1,41 @@
+<div class="contact-wrapper">
+
+  <div class="phone">
+    <div>PHONE</div>
+    <div>62251818</div>
+  </div>
+
+  <div class="hour">
+    <div>BUSINESS HOUR</div>
+    <div>Mon - Sat<br>08:00 - 20:00</div>
+  </div>
+
+
+  <div class="transport">
+    <div>TRANSPORTATION</div>
+    <div><a href="http://www.dsat.gov.mo/bus/site/subpage.aspx?a_id=1449197900#" target="_blank"><img src="/images/bus.png" alt="bus"></a></div>
+  </div>
+
+</div>
+
+<div class="location">LOCATION</div>
+<div class="address">Rua de Sao Paulo, Macau, China</div>
+<div id="map"></div>
+<script>
+  function initMap() {
+    var uluru = {lat: 22.197673, lng: 113.540858};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 17,
+      center: uluru
+    });
+    var marker = new google.maps.Marker({
+      position: uluru,
+      map: map
+    });
+  }
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBaquZfuN66fug0_sIC3GgJm3SuzoSLlMw&callback=initMap">
+</script>
+

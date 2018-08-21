@@ -1,0 +1,19 @@
+<div id="jumbotron-this-console" class="jumbotron">
+
+	<div class="console-title">
+		<div class="console-name">Nintendo Switch</div>
+		<div class="console-price">Now ONLY $ 219.00</div>
+	</div>
+
+	<img src="/images/switchA.jpg" alt="Nintendo Switch">
+
+	<div class="container-scrollbar">
+		<div class="scrollbar-title">You may also like</div>
+		<div class="scrollbar">
+			{{#each_consoleFilter game "console" "Switch"}}
+				<img src={{imgURL}} alt={{name}}>
+			{{/each_consoleFilter}}
+		</div>
+	</div>
+	
+</div>

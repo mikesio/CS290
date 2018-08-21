@@ -1,0 +1,14 @@
+div.scrollbar {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    width:500px;
+}
+
+div.scrollbar img {
+    display: inline-block;
+    width:200px;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}

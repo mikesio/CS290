@@ -1,0 +1,16 @@
+<div id="jumbotron-instock" class="jumbotron"}
+
+  	<ul>
+  		{{#each game}}
+	      <li>
+	      	<img class="instock-image" src={{imgURL}} alt={{name}}>
+	      	<span class="instock-name">{{name}}</span>
+	      	<span class="instock-price">$ {{price}}</span>
+	      	<span class="instock-console-type">{{console}}</span>
+	      </li>
+        {{/each}}
+    </ul>
+
+</div>
+
+

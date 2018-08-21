@@ -1,0 +1,18 @@
+<div id="jumbotron-this-console" class="jumbotron">
+	
+	<div class="console-title">
+		<div class="console-name">Xbox One Console</div>
+		<div class="console-price">Now ONLY $ 199.00</div>
+	</div>
+
+	<img src="/images/xboxoneA.jpg" alt="Xbox One">
+
+	<div class="container-scrollbar">
+		<div class="scrollbar-title">You may also like</div>
+		<div class="scrollbar">
+			{{#each_consoleFilter game "console" "Xbox One"}}
+				<img src={{imgURL}} alt={{name}}>
+			{{/each_consoleFilter}}
+		</div>
+	</div>
+</div>
